@@ -13,11 +13,11 @@ nav {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  padding: 0.5rem;
-  gap: 0.5rem;
+  justify-content: left;
+  padding: 2rem;
+  gap: 1rem;
   border-bottom: solid 1px #aaa;
-  background-color: #eee;
+  background-color: white;
 }
 
 nav a {
@@ -34,6 +34,12 @@ nav a {
 nav a[aria-current='page'] {
   color: #000;
   background-color: #d4d4d4;
+}
+
+a:hover {
+  font-weight: bold;
+  color: white;
+  background-color: red;
 }
 
 main {
